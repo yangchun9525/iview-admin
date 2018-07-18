@@ -21,4 +21,7 @@
 	（关闭所有，同2）
 	（关闭其他）
 11.未登录状态下不能进入别的界面
-	（在index.js中进行判断）
+	（在index.js中对路由进行判断）
+12.每次进入界面出现一个进度条
+	(在index.js中加入 before中加入iView.LoadingBar.start()，after之后iView.LoadingBar.finish())
+	
