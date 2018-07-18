@@ -1,0 +1,22 @@
+1.左侧menu  		
+	（在router.js中定义层级，并在main中设置具体的显示）
+2.workflow
+	（main.vue中 tags-page-opened 标签tags-page-opened.vue中使用）
+3.面包屑
+	（在breadcrumb-nav.vue中）
+4.全屏			
+	（在fullscreen.vue中定义）
+5.换肤
+	（设置不同的theme）
+6.锁屏
+ 	（锁屏其实是定义了一个locking-page.vue，当点击锁屏按钮之后，跳转至这个界面中）
+	（子控件中执行这段this.$emit('on-unlock');那么在父控件中 @on-unlock 就会被执行）
+7.menu伸缩：
+	展示全部详情以及展示图标 （在main.vue中定义了style动画，根据flag动态设置是否展示）
+8.404错误页面 		
+	（在router.js中定义path为*）
+9.main界面怎么放在home界面上的 
+	（在router.js中配置路由，其实是main中包含了home）
+10.标签	
+	（关闭所有，同2）
+	（关闭其他）
